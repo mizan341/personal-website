@@ -83,6 +83,9 @@ a:hover{
     float: left;
     
 }
+.half-width-short:hover{
+    transform: scale(1.05);
+}
 #first-img{
     margin-top: 50px;
 }
@@ -138,6 +141,10 @@ a:hover{
     background-position: center;
     background-size: 50%;
 }
+.box-e:hover{
+   transform: scale(1.05);
+}
+
 
 .half-width-e {
     float: left;
@@ -184,6 +191,9 @@ h5 {
     text-align: center;
     padding: 20px 20px 30px 20px;
 
+}
+.latest-work:hover{
+    transform: scale(1.08);
 }
 .section-f-div{
     width: 100%;
