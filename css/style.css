@@ -1,0 +1,231 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background-color:#f5f6fa;
+    
+}
+h2{
+    padding: 0px 0px 0px 50px;
+    color: salmon;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 0px 30px 0px 30px;
+    
+}
+h3{
+    padding: 50px 5px 10px 50px;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 50px 30px 5px 30px;
+}
+h4{
+    padding: 50px 5px 10px 50px;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 0px 30px 5px 30px;
+}
+h6{
+    padding: 50px 5px 10px 50px;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+}
+
+p{
+    padding: 10px 10px 10px 50px;
+    font-size: 17px;
+    text-align: justify;
+    margin: 0px 30px 30px 30px;
+    color: #7f8fa6;
+}
+a{
+    padding: 10px 40px 10px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 70px 80px 20px 80px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient( to right, orange, red);
+}
+a:hover{
+    background: linear-gradient( to left, orange, red);
+    transform: scale(1.01);
+    font-size: 21px;
+}
+
+.full-width{
+    width: 94%;
+    margin: auto;
+}
+
+.half-width{
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+.half-width-short{
+    width: 40%;
+    float: left;
+    
+}
+#first-img{
+    margin-top: 50px;
+}
+.section-a {
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+
+}
+.section-b{
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    min-height: 550px;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+
+}
+.section-img{
+    width: 92%;
+    padding: 30px 30px 20px 30px;
+}
+.section-c{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background: cover;
+    min-height: 600px;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+
+}
+.section-d{
+    background-image: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+    background: cover;
+    min-height: 550px;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+
+}
+.section-e{
+     min-height: 720px;
+     margin-bottom: 40px;
+     width: 100%;
+}
+
+.half-width-e {
+    float: left;
+    width: 50%;
+}
+.box-e{
+    border-left: 10px solid;
+    border-top: 10px solid;
+    margin: 30px 30px 60px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 300px;
+    border-left-color: orange;
+    border-top-color: blue;
+}
+h5 {
+    padding: 10px 10px 0px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0px 0px 0px;
+}
+
+.box-p {
+    padding: 15px 15px 15px 30px !important;
+    font-size: 14px !important;
+    text-align: justify;
+    margin: 0px 10px 5px 0px;
+
+}
+.section-f {
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background: cover;
+    min-height: 500px;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+
+}
+
+
+.latest-work{
+    float: left;
+    width: 27%;
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+
+}
+.section-f-div{
+    width: 100%;
+    margin: auto;
+    
+}
+.section-f-img{
+    width: 100%;
+    margin: auto;
+    margin: 20px 20px 20px 25px;
+    
+}
+footer{
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+    background: cover;
+    min-height: 630px;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.footer-div{
+    width: 50%;
+    margin: auto;
+}
+#name{
+    font-size: 20px;
+}
+#founder{
+     font-size: 20px;
+     color: darkgrey;
+     font-weight: normal;
+     font-size: 15px;
+     padding-top: 0;
+     margin-top: 0;
+}
+#big-a{
+    text-transform: lowercase;
+    font-size: 15px;
+    margin: 70px 80px 20px 80px;
+    padding: 10px 40px 10px 40px;
+   
+}
+#footer-p{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-size: 18px;
+}
+
+.last-div p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: darkgrey;
+}
+
+span{
+    text-transform: uppercase;
+}
