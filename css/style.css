@@ -120,6 +120,9 @@ a:hover{
 
 }
 .section-e{
+    background-image: url("../images/image\ 20.png");
+    background-repeat: no-repeat;
+    background-position: center;
      min-height: 720px;
      margin-bottom: 40px;
      width: 100%;
@@ -150,6 +153,7 @@ h5 {
     font-size: 14px !important;
     text-align: justify;
     margin: 0px 10px 5px 0px;
+    color: black;
 
 }
 .section-f {
