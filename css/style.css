@@ -52,15 +52,16 @@ a{
     text-transform: uppercase;
     margin: 70px 80px 20px 80px;
     text-decoration: none;
-    border: 1px solid transparent;
-    border-radius: 5px;
+    border: 1px solid tomato;
+    border-radius: 8px;
     color: white;
-    background: linear-gradient( to right, orange, red);
+    background: linear-gradient(to right, orange, #EA2027);
 }
 a:hover{
-    background: linear-gradient( to left, orange, red);
+    background: linear-gradient(to left, orange, #EA2027);
     transform: scale(1.01);
     font-size: 21px;
+    
 }
 
 .full-width{
@@ -69,7 +70,7 @@ a:hover{
 }
 
 .half-width{
-    width: 50%;
+    width: 45%;
     float: left;
     text-align: justify;
 }
@@ -123,9 +124,15 @@ a:hover{
     background-image: url("../images/image\ 20.png");
     background-repeat: no-repeat;
     background-position: center;
-     min-height: 720px;
-     margin-bottom: 40px;
-     width: 100%;
+    min-height: 720px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.box-e{
+    background-image: url("../images/image\ 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
 }
 
 .half-width-e {
@@ -176,20 +183,20 @@ h5 {
 }
 .section-f-div{
     width: 100%;
-    margin: auto;
+    text-align: center;
     
 }
 .section-f-img{
-    width: 100%;
+    width: 80%;
     margin: auto;
-    margin: 20px 20px 20px 25px;
+    text-align: center;
     
 }
 footer{
     background-image: url("../images/footer-bg.png");
     background-repeat: no-repeat;
     background: cover;
-    min-height: 630px;
+    min-height: 500px;
     background-size: 100% 100%;
     text-align: center;
 }
@@ -232,4 +239,73 @@ footer{
 
 span{
     text-transform: uppercase;
+}
+
+/* -----------------------------------------------------------------------------------------------------------
+--------------------------------------------media query-------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+
+@media all and (max-width: 980px) {
+  body{
+      margin: 0px;
+      margin: auto;
+  } 
+  .half-width {
+       width: 100%;
+       float: none;
+   }
+ 
+ .footer-div {
+     width: 100%;
+     overflow: hidden;
+ }
+ .last-div p {
+     width: 70%;
+     margin-top: 0px;
+     font-size: 12px;
+     
+ }
+ .section-e{
+    background-size: 90%;
+ }
+ .box-e {
+    
+     background-size: 90%;
+ }
+ 
+ .half-width-e {
+     float: none;
+     width: 90%;
+     margin: auto;
+    
+ }
+ .latest-work {
+     float: none;
+     width: 80%;
+    }
+    .half-width-short{
+        float: none;
+        width: 50%;
+        margin: auto;
+       
+        padding-bottom: 0px;
+    }
+    
+     #first-h3{
+         margin-top: 0px;
+     }
+     #footer-p {
+         padding: 0px 0px 5px 0px;
+         margin: 0px 0px 2px 0px;
+     }
+    
+}
+
+@media all and (max-width: 660px) {
+    
+
+}
+
+@media all and (max-width: 460px) {
+    
 }
